@@ -1,0 +1,211 @@
+html{
+    font-family: pelak;
+    font-size: 100%;
+}
+
+@font-face{
+    font-family: pelak;
+    src:     url(./fonts/PelakFA-light.woff2) format("woff2"),
+             url(./fonts/PelakFA-light.woff) format("woff"),
+             url(./fonts/PelakFA-light.eot) format("embedded-opentype"),
+             url(./fonts/PelakFA-light.ttf) format("truetype");
+}
+body{
+    text-align: center;
+    display: inline;
+    direction: rtl;
+    background: linear-gradient( #1D976C, #93F9B9);    
+}
+
+aside img{
+    border-radius: 50%;
+    width: calc(70% - 1.2rem);
+    margin: 0.5rem;
+}
+.vision img{
+    border-radius: 50%;
+    width: calc(50% - 2rem);
+    margin: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.vision{
+    border-radius: 10px;
+    background-color: white;
+    width:calc(80% - 2rem);
+    margin: 1.5rem;
+    padding:30px;
+    font-size: 88%;
+}
+
+.about {
+    border-radius: 10px;
+    background-color: white;
+    text-align: right;
+    width: calc(80% - 2rem);
+    margin: 1.5rem;
+    padding: 30px;
+    font-size: 88%;
+}
+aside{
+    float: right;
+    width: calc(20% - 1rem);
+    background-color: #56d3a9;
+    font-size: 0.8rem;
+    margin: 10%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: transform 0.5s ease; /* ترانزیشن با نرمی */
+}
+.clearfix::after,
+.clearfix::before{
+    content:"" ;
+    display: table;
+}
+
+.clearfix::after{
+    clear: both;
+}
+.name{
+    text-align:center;
+    padding: 10px;
+    margin: 10px;
+}
+.name p{
+    text-align: center;
+    font: 1rem/2 pelak;
+    margin: 20px;
+    margin-top: 60px;
+}
+
+.skills:hover {
+    transform: translateX(5px); /* تغییر مکان باکس به سمت راست */
+}
+.skills{
+    font: 0.8rem pelak;
+    float: right;
+    transition: transform 0.5s ease; /* ترانزیشن با نرمی */
+}
+.education:hover {
+    transform: translateX(5px); /* تغییر مکان باکس به سمت راست */}
+.education{
+    font: 0.8rem pelak;
+    float: right;
+    transition: transform 0.5s ease; /* ترانزیشن با نرمی */
+}
+footer a:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.project:hover {
+    transform: translateX(5px); /* تغییر مکان باکس به سمت راست */
+
+}
+.project{
+    font: 0.8rem pelak;
+    float: right;
+    transition: transform 0.5s ease; /* ترانزیشن با نرمی */
+}
+.something:hover {
+    transform: translateX(5px); /* تغییر مکان باکس به سمت راست */
+}
+.something{
+    font: 0.8rem pelak;
+    float: right;
+    transition: transform 0.5s ease; /* ترانزیشن با نرمی */
+}
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    padding: 6px;
+    background-color: #061700;
+    border-radius: 5px;
+    margin: 3px;
+    color: #ffffff;
+
+  }
+a{
+    text-align: center;
+    margin: 1rem;
+}
+table{
+    width: calc(78% - 2rem);
+}
+.gray{
+    background-color: lightgray;
+}
+
+
+.h_iframe-aparat_embed_frame{
+    position:relative;
+}
+.h_iframe-aparat_embed_frame .ratio{
+    display:block;
+    width:100%;
+    height:auto;
+}
+.h_iframe-aparat_embed_frame iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.aparat{
+    width: 50%;
+    position: relative;
+    right: 25%;
+}
+
+aside:hover {
+    transform: translateX(10px); /* تغییر مکان باکس به سمت راست */
+}
+
+@media (min-width :700px){
+
+
+    aside{
+        margin: 10%;
+        width: calc(10% - 1rem);
+    }
+    .vision{
+        padding:1rem;
+        width:calc(90% - 3rem);
+        font: 1.2rem/2 pelak;
+
+    }
+    .about{
+        padding:1rem;
+        width:calc(90% - 3rem);
+        font-size: 100%;
+    }
+    .andaze{
+        margin: 10%;
+    }
+    .vision img{
+        width: calc(38% - 2rem);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+
+    ul li {
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+    aside img{
+        border-radius: 50%;
+        width: calc(70% - 2rem);
+        margin: 1rem;
+    }
+
+
+    span{
+        display: block;
+        padding-top:57%;
+    }
+
+ }
+
